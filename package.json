@@ -1,0 +1,11 @@
+{
+  "name": "foodiego",
+  "private": true,
+  "version": "1.0.0",
+  "description": "FoodieGo: food delivery app (React + Express + SQLite)",
+  "scripts": {
+    "build": "npm --prefix client install --include=dev && npm --prefix client run build && npm --prefix server install",
+    "start": "npm --prefix server start"
+  },
+  "engines": { "node": ">=22.13" }
+}

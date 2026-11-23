@@ -1,15 +1,27 @@
 import express from 'express';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import cors from 'cors';
 import db from './db.js';
 import { listRestaurants } from './queries.js';
 import { authenticate, requireAuth, signup, login, me, logout } from './auth.js';
+import { seedDatabase } from './seed.js';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// Pudhu / empty database (e.g. first deploy) na restaurants data automatic-ah load aagum
+if (db.prepare('SELECT COUNT(*) AS c FROM restaurants').get().c === 0) {
+  const r = seedDatabase();
+  console.log(`Database empty: seeded ${r.restaurants} restaurants and ${r.menu} menu items`);
+}
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.use(cors());
 app.use(express.json());
-app.use(authenticate); // If a valid token is present, `req.user` will be set.
+app.use(authenticate); // valid token irundha req.user set aagum
 
 // ---------- Auth ----------
 app.post('/api/auth/signup', signup);
@@ -31,7 +43,7 @@ app.get('/api/restaurants/:id', (req, res) => {
 });
 
 // ---------- Orders ----------
-// Demo: The status progresses based on time.
+// Demo: status time-based-ah progress aagum
 const STATUS_STEPS = [
   { status: 'placed', after: 0 },
   { status: 'preparing', after: 20 },
@@ -118,5 +130,17 @@ app.get('/api/orders', requireAuth, (req, res) => {
   const ids = db.prepare('SELECT id FROM orders WHERE user_id = ? ORDER BY created_at DESC LIMIT 20').all(req.user.id);
   res.json(ids.map((r) => loadOrder(r.id)));
 });
+
+// ---------- Production: built React app-ah Express-ae serve pannum ----------
+// (client/dist irundha mattum. Dev-la Vite dhaan serve pannum)
+const clientDist = path.join(__dirname, '..', 'client', 'dist');
+if (fs.existsSync(path.join(clientDist, 'index.html'))) {
+  app.use(express.static(clientDist));
+  // /restaurant/5, /login maari React routes refresh pannaalum index.html kudukkum
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) return next();
+    res.sendFile(path.join(clientDist, 'index.html'));
+  });
+}
 
 app.listen(PORT, () => console.log(`FoodieGo API running on http://localhost:${PORT}`));

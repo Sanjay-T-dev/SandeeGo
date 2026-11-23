@@ -1,14 +1,14 @@
 // CSV files (server/data/*.csv) -> SQLite
 // Run: npm run seed
-// If you want to use your own dataset (Kaggle Zomato, etc.), make sure the CSV columns match.
+// Un-oda own dataset (Kaggle Zomato, etc.) podanum-na CSV columns-ah match pannunga.
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 import db, { dropSchema, createSchema } from './db.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Simple CSV parser (handles quotes, commas, and newlines).
+// Simple CSV parser (quotes + commas + newlines handle pannum)
 function parseCSV(text) {
   const rows = [];
   let row = [], field = '', inQuotes = false;
@@ -34,8 +34,8 @@ function parseCSV(text) {
 
 const readCSV = (file) => parseCSV(fs.readFileSync(path.join(__dirname, 'data', file), 'utf-8').replace(/^\uFEFF/, ''));
 
-const restaurants = readCSV('restaurants.csv');
-const menu = readCSV('menu_items.csv');
+let restaurants = [];
+let menu = [];
 
 const seed = db.transaction(() => {
   dropSchema();
@@ -63,5 +63,15 @@ const seed = db.transaction(() => {
   }
 });
 
-seed();
-console.log(`Seeded ${restaurants.length} restaurants and ${menu.length} menu items ✅`);
+export function seedDatabase() {
+  restaurants = readCSV('restaurants.csv');
+  menu = readCSV('menu_items.csv');
+  seed();
+  return { restaurants: restaurants.length, menu: menu.length };
+}
+
+// `npm run seed` nu direct run pannina mattum seed aagum (index.js import pannumbodhu aagaadhu)
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  const r = seedDatabase();
+  console.log(`Seeded ${r.restaurants} restaurants and ${r.menu} menu items ✅`);
+}

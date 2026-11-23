@@ -1,31 +1,31 @@
 # FoodieGo – Food Delivery App
 
-**Customer Ordering Flow:** Browse restaurants → View menu → Cart → Checkout → Live order tracking.
+Customer ordering flow: browse restaurants → view menu → cart → checkout → live order tracking.
 
-**Tech Stack:** React (Vite) + Node/Express + SQLite (Node's built-in `node:sqlite`).
+**Stack:** React (Vite) + Node/Express + SQLite (Node-oda built-in `node:sqlite`)
 
-## Setup and Running Instructions
+## Run panna (setup)
 
-Node.js 22.13+ is required (Node.js 24 is also supported). Since the project uses built-in SQLite, there is no need to install any additional native packages.
+Node 22.13+ venum (Node 24 um OK). Built-in SQLite use pannurathala vera native package install pannanum-nu illa.
 
 ```bash
-# Terminal 1 - Backend (port 3001)
+# Terminal 1 - backend (port 3001)
 cd server
 npm install
-npm run seed     # Adds sample restaurants and menu items to the database
+npm run seed     # sample restaurants + menu DB-la podum
 npm start
 
-# Terminal 2 - Frontend (port 5173)
+# Terminal 2 - frontend (port 5173)
 cd client
 npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser. The Vite development server automatically proxies `/api` requests to the backend running on port 3001.
+Browser-la http://localhost:5173 open pannunga. Vite dev server `/api` calls-ah automatically backend (3001) ku proxy pannum.
 
-## Folder Structure
+## Folder structure
 
-```text
+```
 server/
   index.js        Express app + routes
   queries.js      Restaurant search / filter / sort
@@ -33,7 +33,6 @@ server/
   db.js           SQLite connection + tables
   auth.js         Signup/login/logout, password hashing, sessions
   seed.js         Sample data
-
 client/
   src/
     main.jsx, App.jsx, api.js, CartContext.jsx, AuthContext.jsx, styles.css
@@ -46,75 +45,61 @@ client/
 | Method | Endpoint | Description |
 |---|---|---|
 | GET | /api/restaurants?search=&cuisine= | Restaurant list |
-| GET | /api/restaurants/:id | Restaurant details + menu |
-| POST | /api/orders | Place an order (login required; prices are calculated server-side) |
-| GET | /api/orders/:id | Order details + status (login required; only the order owner can access it) |
-| GET | /api/orders | List of orders belonging to the logged-in user |
+| GET | /api/restaurants/:id | Restaurant + menu |
+| POST | /api/orders | Order place (login venum, prices server-side calculate aagum) |
+| GET | /api/orders/:id | Order details + status (login, owner mattum) |
+| GET | /api/orders | Login panna user-oda orders list |
 
-Order statuses automatically progress in this demo:
+Order status auto-progress aagum (demo): placed → preparing (20s) → out_for_delivery (60s) → delivered (120s).
 
-- Placed → Preparing (20 seconds)
-- Preparing → Out for Delivery (60 seconds)
-- Out for Delivery → Delivered (120 seconds)
+## Dataset (47 restaurants, 600+ dishes)
 
-## Dataset (47 Restaurants, 600+ Dishes)
+`server/data/*.csv` la irukku. Restaurant names ellam **fictional** (real brands illa), Chennai-style areas, prices INR.
 
-The dataset is available in `server/data/*.csv`. All restaurant names are **fictional** (not real brands). The dataset uses Chennai-style locations and prices in INR.
-
-- Edit the CSV files using Excel and run `npm run seed` (**seeding resets existing orders**).
-- To generate a new dataset, run `python tools/generate_dataset.py` (Python is required).
-- To use another dataset (such as a Kaggle Zomato dataset), make sure the CSV columns match the following structure:
-
-**restaurants.csv:**
-`id,name,cuisine,cuisine_tags,area,rating,rating_count,delivery_time,delivery_fee,price_for_two,offer,is_pure_veg,emoji,description`
-
-**menu_items.csv:**
-`restaurant_id,name,description,price,category,is_veg,is_bestseller`
-
-- The `offer` field is for display purposes only. Discounts are not applied to the bill.
+- Excel-la CSV edit panni, `npm run seed` run pannunga (**seed pannina orders reset aagum**).
+- Pudhusa generate panna: `python tools/generate_dataset.py` (Python venum).
+- Vera dataset (Kaggle Zomato maari) use panna, CSV columns match pannunga:
+  - restaurants.csv: id,name,cuisine,cuisine_tags,area,rating,rating_count,delivery_time,delivery_fee,price_for_two,offer,is_pure_veg,emoji,description
+  - menu_items.csv: restaurant_id,name,description,price,category,is_veg,is_bestseller
+- `offer` text display mattum dhaan, bill-la discount apply aagaadhu.
 
 ## Login / Signup
 
-- Signup requires name, email, phone number, and password (minimum 8 characters).
-- After login, a token is generated and remains valid for 7 days.
-- **Login is required to place orders, view My Orders, and access order tracking.** Browsing restaurants and adding items to the cart are allowed without logging in.
-- Passwords are hashed using **scrypt** with a salt (Node's built-in `crypto` module; no additional package required). Plain-text passwords are never stored.
-- Session tokens are generated using 32 random bytes. Only their **SHA-256 hashes** are stored in the database. The original token is stored in the browser's localStorage and sent through the `Authorization: Bearer <token>` header.
-- Login rate limiting: After 5 failed attempts, the user is blocked for 15 minutes (in-memory).
-- Users can only access their own orders. Attempting to access another user's order ID returns a 404 response.
+- Signup: name, email, phone, password (min 8). Login panna token kidaikkum, 7 days valid.
+- **Order place panna, My Orders, tracking paarkka login venum.** Restaurants browse + cart login illama-um pannalaam.
+- Password **scrypt**-la salt-oda hash aagum (Node built-in `crypto`, extra package illa). Plain password store aagaadhu.
+- Session token random 32 bytes. DB-la **SHA-256 hash** mattum store aagum. Browser localStorage-la irukkum, `Authorization: Bearer <token>` header-la pogum.
+- Login-ku rate limit: 5 thappu attempts-ku apram 15 nimisham block (in-memory).
+- User oda orders mattum paakka mudiyum (vera user order id kudutha 404).
 
 | Method | Endpoint | Description |
 |---|---|---|
-| POST | /api/auth/signup | Create an account + automatic login |
-| POST | /api/auth/login | Login and return a token |
-| GET | /api/auth/me | Get the current user (token required) |
-| POST | /api/auth/logout | Delete the session |
+| POST | /api/auth/signup | Account create + auto login |
+| POST | /api/auth/login | Login, token return |
+| GET | /api/auth/me | Current user (token venum) |
+| POST | /api/auth/logout | Session delete |
 
-For existing databases, the `users` and `sessions` tables and the `orders.user_id` column are added automatically.
+Pazhaya DB-la `users`, `sessions` tables and `orders.user_id` column auto add aagum. `npm run seed` pannina accounts delete aagaadhu (orders mattum reset).
 
-Running `npm run seed` does not delete user accounts (only orders are reset).
-
-## Search / Filter API
-
-Example:
+## Search / filter API
 
 `GET /api/restaurants?search=biryani&cuisine=Chinese&veg=1&minRating=4&sort=rating`
+sort = relevance | rating | time | price_low | price_high. Search restaurant name, cuisine, area, **dish name** ellathayum paakum.
 
-Supported sorting options:
+## Deploy (Render free web service)
 
-- `relevance`
-- `rating`
-- `time`
-- `price_low`
-- `price_high`
+Express built React app-ah (`client/dist`) serve pannum, so **oru service-la frontend + backend rendum** odum.
 
-Search covers restaurant names, cuisines, areas, and **dish names**.
+- Build Command: `npm run build`
+- Start Command: `npm start`
+- Environment variable: `NODE_VERSION` = `24.19.0` (Node 22.13+ venum, `node:sqlite`-ku)
+- Instance type: Free
 
-## Next Steps (Future Improvements)
+Pudhu (empty) database-la restaurants data first start-la automatic-ah load aagum.
 
-- Real payment gateway integration
-- Restaurant admin panel
-- WebSocket-based live order tracking
-- Email verification
-- Password reset functionality
-- HTTP-only cookie-based sessions
+**Gavanam:** Render free plan-la filesystem ephemeral. Service sleep / restart / redeploy aana **users and orders reset aagum** (restaurants thirumba load aagum). Demo-ku OK, real data-ku Postgres venum.
+
+Local-la production mode test: `cd client && npm run build`, apram `cd ../server && npm start`, http://localhost:3001 open pannunga.
+
+## Next steps (ideas)
+Real payment gateway, restaurant admin panel, WebSocket live tracking, email verification / password reset, httpOnly cookie sessions.
