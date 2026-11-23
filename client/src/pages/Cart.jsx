@@ -10,7 +10,7 @@ export default function Cart() {
     return (
       <div className="empty">
         <h2>Cart is empty 🛒</h2>
-        <Link to="/" className="btn">Restaurants paarunga</Link>
+        <Link to="/" className="btn">Browse Restaurants</Link>
       </div>
     );
 
