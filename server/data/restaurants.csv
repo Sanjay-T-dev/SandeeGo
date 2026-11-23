@@ -1,0 +1,48 @@
+id,name,cuisine,cuisine_tags,area,rating,rating_count,delivery_time,delivery_fee,price_for_two,offer,is_pure_veg,emoji,description
+1,Amma Mess,South Indian,"Tiffin, Meals",Porur,3.9,5000,35,0,150,50% OFF up to ₹100,1,🥞,Home style tiffin and meals
+2,Murugan Tiffin Centre,South Indian,"Tiffin, Dosa",Adyar,4.5,5000,15,25,160,Flat ₹100 OFF above ₹499,1,🥞,"Dosa, idli and filter coffee since 1985"
+3,Sri Annapoorna Bhavan,South Indian,"Meals, Tiffin",Nungambakkam,4.1,1200,20,20,170,50% OFF up to ₹100,1,🍛,Pure veg meals and tiffin
+4,Dosa Corner,South Indian,"Dosa, Snacks",OMR,4.7,1200,20,35,200,Free delivery,1,🥞,Over 25 varieties of dosa
+5,Madras Tiffin House,South Indian,"Tiffin, Coffee",Guindy,4.1,120,30,25,210,30% OFF up to ₹90,1,☕,Classic Madras breakfast
+6,Kovai Kitchen,South Indian,"Meals, Dosa",Anna Nagar,4.6,5000,35,15,190,Flat ₹60 OFF above ₹299,0,🍛,South Indian meals with non-veg sides
+7,Chettinad Spice Route,Chettinad,"Non-Veg, Meals",Porur,4.5,340,40,25,450,,0,🍗,Authentic Chettinad pepper and masala
+8,Karaikudi Virundhu,Chettinad,"Chettinad, Meals",Velachery,3.6,5000,20,30,370,,0,🍗,Karaikudi style feasts
+9,Pepper Pot Chettinad,Chettinad,"Chicken, Mutton",OMR,4.7,3500,20,40,420,Free delivery,0,🍗,Spicy and fiery Chettinad
+10,Biryani Junction,Biryani,"Biryani, Starters",Alwarpet,4.1,800,30,15,450,,0,🍚,Dum biryani and starters
+11,Dindigul Thalappakatti Style,Biryani,"Biryani, Seeraga Samba",Besant Nagar,4.7,3500,25,25,500,Flat ₹100 OFF above ₹499,0,🍚,Seeraga samba biryani
+12,Ambur Dum House,Biryani,"Biryani, Mutton",Velachery,3.7,120,40,40,420,Free delivery,0,🍚,Ambur style star biryani
+13,Hyderabad Handi,Biryani,"Biryani, Mughlai",Thiruvanmiyur,4.4,800,30,20,440,,0,🍚,Hyderabadi dum biryani
+14,Royal Biryani Co.,Biryani,Biryani,Alwarpet,4.0,5000,15,35,430,Flat ₹100 OFF above ₹499,0,🍚,Family packs and combos
+15,Punjab Tadka,North Indian,"Mughlai, Tandoori",Anna Nagar,4.0,340,40,20,320,30% OFF up to ₹90,0,🍛,Rich gravies and tandoor
+16,Delhi Darbar,North Indian,"Tandoori, Breads",Kodambakkam,4.0,60,25,15,280,50% OFF up to ₹100,0,🍛,Butter chicken and naan
+17,Tandoor Nights,North Indian,"Tandoori, Kebabs",Thiruvanmiyur,4.6,520,20,40,340,30% OFF up to ₹90,0,🍢,Smoky tandoor specials
+18,Pure Veg Rasoi,North Indian,"Veg, Thali",Mylapore,3.7,800,20,30,270,,1,🥘,North Indian pure vegetarian
+19,Shree Bhojan,North Indian,"Thali, Veg",Porur,4.4,120,40,20,320,20% OFF up to ₹75,1,🥘,Thali and veg curries
+20,Dragon Wok,Chinese,"Indo-Chinese, Noodles",OMR,4.1,1200,30,25,320,50% OFF up to ₹100,0,🥡,Indo-Chinese favourites
+21,Wok Express,Chinese,"Noodles, Fried Rice",Tambaram,4.7,520,40,35,370,30% OFF up to ₹90,0,🥡,Quick wok-tossed meals
+22,Golden Chopsticks,Chinese,"Chinese, Soups",Thiruvanmiyur,4.6,5000,30,40,390,Flat ₹100 OFF above ₹499,0,🥢,"Soups, starters and noodles"
+23,Veg Wok House,Chinese,"Indo-Chinese, Veg",Nungambakkam,3.7,800,20,20,250,Flat ₹60 OFF above ₹299,1,🥡,Pure veg Indo-Chinese
+24,Pizza Corner,Pizza & Italian,"Pizza, Pasta",Guindy,4.1,60,45,40,370,Free delivery,0,🍕,Hand-tossed pizzas and pasta
+25,La Piazza Kitchen,Pizza & Italian,"Italian, Pasta",Porur,3.8,3500,20,30,540,,0,🍝,Italian comfort food
+26,Slice Society,Pizza & Italian,"Pizza, Desserts",Adyar,4.5,2100,25,40,480,30% OFF up to ₹90,0,🍕,Pizza by the slice
+27,Veggie Crust,Pizza & Italian,"Pizza, Veg",OMR,4.2,120,35,15,320,20% OFF up to ₹75,1,🍕,Pure veg pizzas and pasta
+28,Burger Barn,Burgers & Fast Food,"Burgers, Fries",Kodambakkam,4.5,1200,35,25,370,Flat ₹60 OFF above ₹299,0,🍔,Juicy burgers and fries
+29,Crispy Chick,Burgers & Fast Food,"Fried Chicken, Wraps",Velachery,4.1,800,25,40,370,,0,🍗,Crispy fried chicken
+30,Stack & Smash,Burgers & Fast Food,"Burgers, Wraps",Velachery,4.7,5000,15,30,400,,0,🍔,Smashed patty burgers
+31,Shawarma Station,Arabian,"Shawarma, Grills",Porur,4.3,1200,30,35,410,Flat ₹60 OFF above ₹299,0,🌯,Street style shawarma
+32,Al Mandi House,Arabian,"Mandi, Grills",Adyar,4.3,5000,35,20,490,50% OFF up to ₹100,0,🍖,Mandi and charcoal grills
+33,Arabian Nights,Arabian,"Shawarma, Mandi",Nungambakkam,4.3,3500,30,25,340,,0,🌯,Middle eastern flavours
+34,Malabar Kitchen,Kerala,"Kerala, Seafood",Tambaram,4.3,520,45,30,390,30% OFF up to ₹90,0,🥥,Malabar and Kerala specials
+35,God's Own Meals,Kerala,"Meals, Appam",Besant Nagar,3.7,60,30,25,400,30% OFF up to ₹90,0,🥥,Kerala meals and appam
+36,Chaat Gali,Street Food & Chaat,"Chaat, Snacks",Guindy,3.7,340,45,20,150,20% OFF up to ₹75,1,🥙,"Pani puri, sev puri and more"
+37,Mumbai Pav Co.,Street Food & Chaat,"Pav Bhaji, Snacks",Alwarpet,3.7,60,45,35,140,20% OFF up to ₹75,1,🥙,Mumbai street food
+38,Sweet Tooth,Desserts & Bakery,"Cakes, Ice Cream",Tambaram,4.0,3500,25,35,210,Flat ₹100 OFF above ₹499,1,🍰,"Cakes, ice creams and shakes"
+39,Cake Walk Bakery,Desserts & Bakery,"Bakery, Cakes",Porur,4.1,60,20,20,300,,0,🎂,Fresh baked cakes and puffs
+40,Jigarthanda Junction,Desserts & Bakery,"Desserts, Beverages",Mylapore,4.4,340,30,35,200,Flat ₹100 OFF above ₹499,1,🥤,Madurai specials
+41,Sugar Rush,Desserts & Bakery,"Desserts, Shakes",Guindy,3.9,800,45,30,200,30% OFF up to ₹90,1,🍨,Desserts and milkshakes
+42,Green Bowl,Healthy,"Salads, Bowls",Perambur,4.7,2100,30,35,390,,0,🥗,"Salads, bowls and juices"
+43,Fit Fuel Kitchen,Healthy,"Healthy, Protein",Alwarpet,4.4,120,45,20,390,Flat ₹100 OFF above ₹499,0,🥗,High protein meals
+44,Millet Magic,Healthy,"Millets, Bowls",Perambur,4.4,60,15,20,320,,1,🥣,Millet based healthy food
+45,Coastal Catch,Seafood,"Seafood, Meals",OMR,3.8,3500,40,20,520,20% OFF up to ₹75,0,🦐,Fresh coastal seafood
+46,Marina Meen Kadai,Seafood,"Fish, Prawn",Besant Nagar,3.9,1200,35,20,440,20% OFF up to ₹75,0,🐟,Fish fry and curries
+47,Sea Salt Kitchen,Seafood,"Seafood, Rice",Thiruvanmiyur,4.5,340,40,0,550,,0,🦀,"Crab, prawn and squid"

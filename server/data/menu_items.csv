@@ -1,0 +1,607 @@
+restaurant_id,name,description,price,category,is_veg,is_bestseller
+1,Lemon Rice,Tangy lemon rice with peanuts,70,Rice,1,0
+1,Curd Rice,Cool curd rice with pomegranate and pickle,70,Rice,1,0
+1,Sambar Vada,Vada soaked in hot sambar,60,Snacks,1,0
+1,Ghee Pongal,Creamy pongal tempered with pepper and ghee,70,Tiffin,1,0
+1,Mini Tiffin,"Idli, vada, pongal, dosa mini combo",125,Combos,1,1
+1,Podi Idli,Mini idlis tossed in gunpowder and gingelly oil,75,Tiffin,1,0
+1,Idli (3 pcs),Soft steamed idli with sambar and chutneys,50,Tiffin,1,1
+1,Medu Vada (2 pcs),Crispy urad dal vada,45,Snacks,1,0
+1,Rose Milk,Chilled rose milk,50,Beverages,1,0
+1,Soft Drink (300 ml),Cola / lemon / orange,35,Beverages,1,0
+1,Gulab Jamun (2 pcs),Warm syrupy jamun,65,Desserts,1,0
+1,Choco Lava Cake,Molten chocolate center,100,Desserts,1,0
+2,Onion Rava Dosa,Crispy rava dosa with onion and cashew,100,Dosa,1,0
+2,Ghee Roast Dosa,Paper-thin roast dosa brushed with ghee,95,Dosa,1,0
+2,Plain Dosa,Crispy golden dosa with chutney and sambar,55,Dosa,1,0
+2,Masala Dosa,Dosa stuffed with spiced potato masala,80,Dosa,1,1
+2,Filter Coffee,Strong decoction coffee,30,Beverages,1,1
+2,Ghee Pongal,Creamy pongal tempered with pepper and ghee,70,Tiffin,1,0
+2,Sambar Vada,Vada soaked in hot sambar,60,Snacks,1,0
+2,Lemon Rice,Tangy lemon rice with peanuts,70,Rice,1,0
+2,Idli (3 pcs),Soft steamed idli with sambar and chutneys,50,Tiffin,1,1
+2,Curd Rice,Cool curd rice with pomegranate and pickle,70,Rice,1,0
+2,Veg Meals,"Full meals: rice, sambar, rasam, kootu, poriyal, curd",145,Meals,1,1
+2,Podi Idli,Mini idlis tossed in gunpowder and gingelly oil,75,Tiffin,1,0
+2,Medu Vada (2 pcs),Crispy urad dal vada,45,Snacks,1,0
+2,Choco Lava Cake,Molten chocolate center,100,Desserts,1,0
+2,Vanilla Ice Cream (2 scoops),Classic vanilla,80,Desserts,1,0
+2,Fresh Lime Soda,Sweet / salt / mixed,55,Beverages,1,0
+2,Buttermilk,Spiced chaas,30,Beverages,1,0
+3,Idli (3 pcs),Soft steamed idli with sambar and chutneys,55,Tiffin,1,1
+3,Lemon Rice,Tangy lemon rice with peanuts,80,Rice,1,0
+3,Masala Dosa,Dosa stuffed with spiced potato masala,90,Dosa,1,1
+3,Ghee Roast Dosa,Paper-thin roast dosa brushed with ghee,105,Dosa,1,0
+3,Ghee Pongal,Creamy pongal tempered with pepper and ghee,80,Tiffin,1,0
+3,Curd Rice,Cool curd rice with pomegranate and pickle,75,Rice,1,0
+3,Mini Tiffin,"Idli, vada, pongal, dosa mini combo",140,Combos,1,1
+3,Sambar Vada,Vada soaked in hot sambar,65,Snacks,1,0
+3,Cold Coffee,Chilled creamy coffee,110,Beverages,1,0
+3,Fresh Lime Soda,Sweet / salt / mixed,60,Beverages,1,0
+3,Rose Milk,Chilled rose milk,55,Beverages,1,0
+3,Buttermilk,Spiced chaas,35,Beverages,1,0
+4,Podi Idli,Mini idlis tossed in gunpowder and gingelly oil,95,Tiffin,1,0
+4,Ghee Roast Dosa,Paper-thin roast dosa brushed with ghee,115,Dosa,1,0
+4,Lemon Rice,Tangy lemon rice with peanuts,90,Rice,1,0
+4,Sambar Vada,Vada soaked in hot sambar,70,Snacks,1,0
+4,Masala Dosa,Dosa stuffed with spiced potato masala,100,Dosa,1,1
+4,Onion Rava Dosa,Crispy rava dosa with onion and cashew,120,Dosa,1,0
+4,Idli (3 pcs),Soft steamed idli with sambar and chutneys,60,Tiffin,1,1
+4,Ghee Pongal,Creamy pongal tempered with pepper and ghee,90,Tiffin,1,0
+4,Medu Vada (2 pcs),Crispy urad dal vada,55,Snacks,1,0
+4,Plain Dosa,Crispy golden dosa with chutney and sambar,65,Dosa,1,0
+4,Mini Tiffin,"Idli, vada, pongal, dosa mini combo",155,Combos,1,1
+4,Filter Coffee,Strong decoction coffee,40,Beverages,1,1
+4,Curd Rice,Cool curd rice with pomegranate and pickle,80,Rice,1,0
+4,Veg Meals,"Full meals: rice, sambar, rasam, kootu, poriyal, curd",175,Meals,1,1
+4,Rose Milk,Chilled rose milk,60,Beverages,1,0
+4,Choco Lava Cake,Molten chocolate center,120,Desserts,1,0
+5,Mini Tiffin,"Idli, vada, pongal, dosa mini combo",170,Combos,1,1
+5,Podi Idli,Mini idlis tossed in gunpowder and gingelly oil,100,Tiffin,1,0
+5,Onion Rava Dosa,Crispy rava dosa with onion and cashew,130,Dosa,1,0
+5,Masala Dosa,Dosa stuffed with spiced potato masala,110,Dosa,1,1
+5,Plain Dosa,Crispy golden dosa with chutney and sambar,70,Dosa,1,0
+5,Sambar Vada,Vada soaked in hot sambar,80,Snacks,1,0
+5,Medu Vada (2 pcs),Crispy urad dal vada,60,Snacks,1,0
+5,Idli (3 pcs),Soft steamed idli with sambar and chutneys,65,Tiffin,1,1
+5,Veg Meals,"Full meals: rice, sambar, rasam, kootu, poriyal, curd",190,Meals,1,1
+5,Curd Rice,Cool curd rice with pomegranate and pickle,90,Rice,1,0
+5,Ghee Pongal,Creamy pongal tempered with pepper and ghee,95,Tiffin,1,0
+5,Filter Coffee,Strong decoction coffee,40,Beverages,1,1
+5,Ghee Roast Dosa,Paper-thin roast dosa brushed with ghee,125,Dosa,1,0
+5,Fresh Lime Soda,Sweet / salt / mixed,70,Beverages,1,0
+5,Rose Milk,Chilled rose milk,65,Beverages,1,0
+5,Vanilla Ice Cream (2 scoops),Classic vanilla,110,Desserts,1,0
+5,Soft Drink (300 ml),Cola / lemon / orange,50,Beverages,1,0
+6,Egg Dosa,Dosa topped with egg and pepper,100,Dosa,0,0
+6,Plain Dosa,Crispy golden dosa with chutney and sambar,60,Dosa,1,0
+6,Medu Vada (2 pcs),Crispy urad dal vada,50,Snacks,1,0
+6,Idli (3 pcs),Soft steamed idli with sambar and chutneys,55,Tiffin,1,1
+6,Curd Rice,Cool curd rice with pomegranate and pickle,75,Rice,1,0
+6,Ghee Roast Dosa,Paper-thin roast dosa brushed with ghee,105,Dosa,1,0
+6,Sambar Vada,Vada soaked in hot sambar,65,Snacks,1,0
+6,Chicken Dosa,Dosa layered with chicken masala,150,Dosa,0,0
+6,Ghee Pongal,Creamy pongal tempered with pepper and ghee,80,Tiffin,1,0
+6,Podi Idli,Mini idlis tossed in gunpowder and gingelly oil,85,Tiffin,1,0
+6,Onion Rava Dosa,Crispy rava dosa with onion and cashew,110,Dosa,1,0
+6,Gulab Jamun (2 pcs),Warm syrupy jamun,70,Desserts,1,0
+6,Cold Coffee,Chilled creamy coffee,110,Beverages,1,0
+7,Paal Payasam,Creamy milk payasam,90,Desserts,1,0
+7,Chicken Meals,"Rice with chicken gravy, rasam, poriyal, curd",255,Meals,0,1
+7,Veechu Parotta,Hand-tossed thin parotta,75,Breads,1,0
+7,Nattu Kozhi Kuzhambu,Country chicken gravy,320,Main Course,0,0
+7,Pepper Chicken Fry,Dry roasted pepper chicken,265,Starters,0,0
+7,Chicken Chettinad,Pepper-roasted chicken in Chettinad masala,295,Main Course,0,1
+7,Kal Dosa (2 pcs),"Soft thick dosa, perfect with gravy",75,Breads,1,0
+7,Mutton Kola Urundai,Fried spiced mutton balls,275,Starters,0,0
+7,Veg Kurma,Coconut based mixed veg kurma,155,Main Course,1,0
+7,Mutton Chukka,Dry-roasted mutton with onions and spices,375,Main Course,0,0
+7,Egg Curry,Chettinad egg gravy,165,Main Course,0,0
+7,Fish Fry,Masala-marinated seer fish fry,350,Seafood,0,0
+7,Rose Milk,Chilled rose milk,60,Beverages,1,0
+7,Vanilla Ice Cream (2 scoops),Classic vanilla,100,Desserts,1,0
+8,Fish Fry,Masala-marinated seer fish fry,320,Seafood,0,0
+8,Kal Dosa (2 pcs),"Soft thick dosa, perfect with gravy",70,Breads,1,0
+8,Chicken Meals,"Rice with chicken gravy, rasam, poriyal, curd",230,Meals,0,1
+8,Mutton Chukka,Dry-roasted mutton with onions and spices,340,Main Course,0,0
+8,Prawn Thokku,Prawns in tangy roasted masala,330,Seafood,0,0
+8,Egg Curry,Chettinad egg gravy,150,Main Course,0,0
+8,Veechu Parotta,Hand-tossed thin parotta,70,Breads,1,0
+8,Mutton Kola Urundai,Fried spiced mutton balls,250,Starters,0,0
+8,Veg Kurma,Coconut based mixed veg kurma,140,Main Course,1,0
+8,Paal Payasam,Creamy milk payasam,80,Desserts,1,0
+8,Chicken Chettinad,Pepper-roasted chicken in Chettinad masala,270,Main Course,0,1
+8,Vanilla Ice Cream (2 scoops),Classic vanilla,90,Desserts,1,0
+8,Fresh Lime Soda,Sweet / salt / mixed,60,Beverages,1,0
+8,Buttermilk,Spiced chaas,35,Beverages,1,0
+8,Cold Coffee,Chilled creamy coffee,110,Beverages,1,0
+9,Egg Curry,Chettinad egg gravy,180,Main Course,0,0
+9,Pepper Chicken Fry,Dry roasted pepper chicken,290,Starters,0,0
+9,Nattu Kozhi Kuzhambu,Country chicken gravy,350,Main Course,0,0
+9,Kal Dosa (2 pcs),"Soft thick dosa, perfect with gravy",85,Breads,1,0
+9,Prawn Thokku,Prawns in tangy roasted masala,395,Seafood,0,0
+9,Chicken Meals,"Rice with chicken gravy, rasam, poriyal, curd",275,Meals,0,1
+9,Paal Payasam,Creamy milk payasam,95,Desserts,1,0
+9,Chicken 65,Crispy fried chicken with curry leaves,250,Starters,0,1
+9,Rose Milk,Chilled rose milk,65,Beverages,1,0
+9,Buttermilk,Spiced chaas,40,Beverages,1,0
+9,Soft Drink (300 ml),Cola / lemon / orange,50,Beverages,1,0
+10,Brinjal Gravy,Spicy gravy for biryani,50,Sides,1,0
+10,Chicken Biryani,Seeraga samba biryani with juicy chicken,230,Biryani,0,1
+10,Raita,Cool onion-cucumber raita,40,Sides,1,0
+10,Mutton Biryani,Dum biryani with tender mutton,315,Biryani,0,1
+10,Family Pack Chicken Biryani,Serves 3-4,645,Combos,0,1
+10,Chicken 65 Biryani,Biryani topped with Chicken 65,255,Biryani,0,0
+10,Prawn Biryani,Spicy prawn biryani,305,Biryani,0,0
+10,Egg Biryani,Biryani rice with masala eggs,180,Biryani,0,0
+10,Chicken Lollipop (4 pcs),Deep fried masala lollipops,210,Starters,0,0
+10,Mutton Sukka,Dry roasted mutton,295,Starters,0,0
+10,Paneer Biryani,Paneer tikka biryani,200,Biryani,1,0
+10,Chicken 65,Crispy fried chicken starter,180,Starters,0,0
+10,Veg Biryani,Vegetable dum biryani,160,Biryani,1,0
+10,Vanilla Ice Cream (2 scoops),Classic vanilla,85,Desserts,1,0
+10,Soft Drink (300 ml),Cola / lemon / orange,40,Beverages,1,0
+10,Cold Coffee,Chilled creamy coffee,105,Beverages,1,0
+11,Veg Biryani,Vegetable dum biryani,170,Biryani,1,0
+11,Egg Biryani,Biryani rice with masala eggs,190,Biryani,0,0
+11,Chicken 65 Biryani,Biryani topped with Chicken 65,270,Biryani,0,0
+11,Chicken 65,Crispy fried chicken starter,190,Starters,0,0
+11,Mutton Sukka,Dry roasted mutton,310,Starters,0,0
+11,Family Pack Chicken Biryani,Serves 3-4,680,Combos,0,1
+11,Raita,Cool onion-cucumber raita,40,Sides,1,0
+11,Chicken Lollipop (4 pcs),Deep fried masala lollipops,220,Starters,0,0
+11,Chicken Biryani,Seeraga samba biryani with juicy chicken,240,Biryani,0,1
+11,Mutton Biryani,Dum biryani with tender mutton,330,Biryani,0,1
+11,Prawn Biryani,Spicy prawn biryani,320,Biryani,0,0
+11,Paneer Biryani,Paneer tikka biryani,210,Biryani,1,0
+11,Brinjal Gravy,Spicy gravy for biryani,50,Sides,1,0
+11,Cold Coffee,Chilled creamy coffee,110,Beverages,1,0
+11,Rose Milk,Chilled rose milk,55,Beverages,1,0
+12,Chicken Biryani,Seeraga samba biryani with juicy chicken,230,Biryani,0,1
+12,Family Pack Chicken Biryani,Serves 3-4,645,Combos,0,1
+12,Mutton Sukka,Dry roasted mutton,295,Starters,0,0
+12,Chicken 65,Crispy fried chicken starter,180,Starters,0,0
+12,Chicken Lollipop (4 pcs),Deep fried masala lollipops,210,Starters,0,0
+12,Egg Biryani,Biryani rice with masala eggs,180,Biryani,0,0
+12,Brinjal Gravy,Spicy gravy for biryani,50,Sides,1,0
+12,Paneer Biryani,Paneer tikka biryani,200,Biryani,1,0
+12,Chicken 65 Biryani,Biryani topped with Chicken 65,255,Biryani,0,0
+12,Rose Milk,Chilled rose milk,50,Beverages,1,0
+12,Soft Drink (300 ml),Cola / lemon / orange,40,Beverages,1,0
+12,Fresh Lime Soda,Sweet / salt / mixed,55,Beverages,1,0
+12,Vanilla Ice Cream (2 scoops),Classic vanilla,85,Desserts,1,0
+13,Mutton Sukka,Dry roasted mutton,295,Starters,0,0
+13,Family Pack Chicken Biryani,Serves 3-4,645,Combos,0,1
+13,Chicken Lollipop (4 pcs),Deep fried masala lollipops,210,Starters,0,0
+13,Prawn Biryani,Spicy prawn biryani,305,Biryani,0,0
+13,Paneer Biryani,Paneer tikka biryani,200,Biryani,1,0
+13,Veg Biryani,Vegetable dum biryani,160,Biryani,1,0
+13,Brinjal Gravy,Spicy gravy for biryani,50,Sides,1,0
+13,Chicken 65 Biryani,Biryani topped with Chicken 65,255,Biryani,0,0
+13,Egg Biryani,Biryani rice with masala eggs,180,Biryani,0,0
+13,Mutton Biryani,Dum biryani with tender mutton,315,Biryani,0,1
+13,Chicken 65,Crispy fried chicken starter,180,Starters,0,0
+13,Raita,Cool onion-cucumber raita,40,Sides,1,0
+13,Vanilla Ice Cream (2 scoops),Classic vanilla,85,Desserts,1,0
+13,Rose Milk,Chilled rose milk,50,Beverages,1,0
+13,Buttermilk,Spiced chaas,35,Beverages,1,0
+14,Egg Biryani,Biryani rice with masala eggs,230,Biryani,0,0
+14,Prawn Biryani,Spicy prawn biryani,385,Biryani,0,0
+14,Mutton Biryani,Dum biryani with tender mutton,395,Biryani,0,1
+14,Veg Biryani,Vegetable dum biryani,205,Biryani,1,0
+14,Brinjal Gravy,Spicy gravy for biryani,60,Sides,1,0
+14,Paneer Biryani,Paneer tikka biryani,250,Biryani,1,0
+14,Raita,Cool onion-cucumber raita,50,Sides,1,0
+14,Mutton Sukka,Dry roasted mutton,370,Starters,0,0
+14,Chicken 65,Crispy fried chicken starter,230,Starters,0,0
+14,Cold Coffee,Chilled creamy coffee,130,Beverages,1,0
+14,Buttermilk,Spiced chaas,40,Beverages,1,0
+14,Gulab Jamun (2 pcs),Warm syrupy jamun,85,Desserts,1,0
+14,Choco Lava Cake,Molten chocolate center,130,Desserts,1,0
+15,Kadai Paneer,Paneer with capsicum in kadai masala,225,Main Course,1,0
+15,Veg Thali,"Dal, sabzi, roti, rice, salad and sweet",235,Combos,1,0
+15,Jeera Rice,Basmati rice tempered with cumin,110,Rice,1,0
+15,Garlic Naan,Naan with garlic and coriander,60,Breads,1,0
+15,Paneer Butter Masala,Paneer cubes in rich tomato gravy,215,Main Course,1,1
+15,Palak Paneer,Paneer in spinach gravy,210,Main Course,1,0
+15,Laccha Paratha,Layered flaky paratha,50,Breads,1,0
+15,Tandoori Chicken (Half),Smoky tandoor chicken,245,Starters,0,0
+15,Chana Masala,Spicy chickpea curry,155,Main Course,1,0
+15,Dal Makhani,Slow-cooked black lentils with cream,190,Main Course,1,1
+15,Butter Chicken,Creamy tomato butter gravy with chicken,260,Main Course,0,1
+15,Tandoori Roti,Whole wheat roti from tandoor,25,Breads,1,0
+15,Paneer Tikka,Char-grilled marinated paneer,205,Starters,1,0
+15,Chicken Tikka Masala,Tandoori chicken in spicy gravy,250,Main Course,0,0
+15,Butter Naan,Tandoor naan brushed with butter,50,Breads,1,1
+15,Choco Lava Cake,Molten chocolate center,100,Desserts,1,0
+15,Rose Milk,Chilled rose milk,50,Beverages,1,0
+15,Gulab Jamun (2 pcs),Warm syrupy jamun,65,Desserts,1,0
+15,Buttermilk,Spiced chaas,30,Beverages,1,0
+16,Laccha Paratha,Layered flaky paratha,55,Breads,1,0
+16,Garlic Naan,Naan with garlic and coriander,65,Breads,1,0
+16,Butter Naan,Tandoor naan brushed with butter,55,Breads,1,1
+16,Dal Makhani,Slow-cooked black lentils with cream,210,Main Course,1,1
+16,Mix Veg Curry,Seasonal vegetables in onion gravy,190,Main Course,1,0
+16,Paneer Tikka,Char-grilled marinated paneer,230,Starters,1,0
+16,Butter Chicken,Creamy tomato butter gravy with chicken,290,Main Course,0,1
+16,Cold Coffee,Chilled creamy coffee,110,Beverages,1,0
+16,Rose Milk,Chilled rose milk,55,Beverages,1,0
+16,Buttermilk,Spiced chaas,35,Beverages,1,0
+16,Choco Lava Cake,Molten chocolate center,110,Desserts,1,0
+17,Butter Chicken,Creamy tomato butter gravy with chicken,260,Main Course,0,1
+17,Dal Makhani,Slow-cooked black lentils with cream,190,Main Course,1,1
+17,Laccha Paratha,Layered flaky paratha,50,Breads,1,0
+17,Palak Paneer,Paneer in spinach gravy,210,Main Course,1,0
+17,Mix Veg Curry,Seasonal vegetables in onion gravy,170,Main Course,1,0
+17,Tandoori Roti,Whole wheat roti from tandoor,25,Breads,1,0
+17,Paneer Butter Masala,Paneer cubes in rich tomato gravy,215,Main Course,1,1
+17,Kadai Paneer,Paneer with capsicum in kadai masala,225,Main Course,1,0
+17,Jeera Rice,Basmati rice tempered with cumin,110,Rice,1,0
+17,Tandoori Chicken (Half),Smoky tandoor chicken,245,Starters,0,0
+17,Paneer Tikka,Char-grilled marinated paneer,205,Starters,1,0
+17,Veg Thali,"Dal, sabzi, roti, rice, salad and sweet",235,Combos,1,0
+17,Garlic Naan,Naan with garlic and coriander,60,Breads,1,0
+17,Vanilla Ice Cream (2 scoops),Classic vanilla,80,Desserts,1,0
+17,Gulab Jamun (2 pcs),Warm syrupy jamun,65,Desserts,1,0
+18,Mix Veg Curry,Seasonal vegetables in onion gravy,170,Main Course,1,0
+18,Paneer Butter Masala,Paneer cubes in rich tomato gravy,215,Main Course,1,1
+18,Veg Thali,"Dal, sabzi, roti, rice, salad and sweet",235,Combos,1,0
+18,Chana Masala,Spicy chickpea curry,155,Main Course,1,0
+18,Tandoori Roti,Whole wheat roti from tandoor,25,Breads,1,0
+18,Butter Naan,Tandoor naan brushed with butter,50,Breads,1,1
+18,Laccha Paratha,Layered flaky paratha,50,Breads,1,0
+18,Paneer Tikka,Char-grilled marinated paneer,205,Starters,1,0
+18,Kadai Paneer,Paneer with capsicum in kadai masala,225,Main Course,1,0
+18,Soft Drink (300 ml),Cola / lemon / orange,35,Beverages,1,0
+18,Rose Milk,Chilled rose milk,50,Beverages,1,0
+18,Gulab Jamun (2 pcs),Warm syrupy jamun,65,Desserts,1,0
+19,Palak Paneer,Paneer in spinach gravy,235,Main Course,1,0
+19,Mix Veg Curry,Seasonal vegetables in onion gravy,190,Main Course,1,0
+19,Dal Makhani,Slow-cooked black lentils with cream,210,Main Course,1,1
+19,Butter Naan,Tandoor naan brushed with butter,55,Breads,1,1
+19,Paneer Tikka,Char-grilled marinated paneer,230,Starters,1,0
+19,Veg Thali,"Dal, sabzi, roti, rice, salad and sweet",260,Combos,1,0
+19,Kadai Paneer,Paneer with capsicum in kadai masala,250,Main Course,1,0
+19,Garlic Naan,Naan with garlic and coriander,65,Breads,1,0
+19,Tandoori Roti,Whole wheat roti from tandoor,30,Breads,1,0
+19,Laccha Paratha,Layered flaky paratha,55,Breads,1,0
+19,Chana Masala,Spicy chickpea curry,170,Main Course,1,0
+19,Vanilla Ice Cream (2 scoops),Classic vanilla,90,Desserts,1,0
+19,Fresh Lime Soda,Sweet / salt / mixed,60,Beverages,1,0
+19,Choco Lava Cake,Molten chocolate center,110,Desserts,1,0
+20,Veg Manchow Soup,Spicy soup with crispy noodles,95,Soups,1,0
+20,Chicken Sweet Corn Soup,Classic chicken sweet corn soup,110,Soups,0,0
+20,Egg Fried Rice,Fried rice with scrambled egg,155,Rice & Noodles,0,0
+20,Dragon Chicken,Crispy chicken in sweet-spicy glaze,215,Starters,0,0
+20,Chicken Hakka Noodles,Stir fried noodles with chicken,180,Rice & Noodles,0,1
+20,Paneer Chilli,Paneer tossed in chilli garlic sauce,190,Starters,1,0
+20,Chicken Manchurian,Chicken balls in manchurian gravy,195,Starters,0,0
+20,Veg Fried Rice,Wok-tossed rice with vegetables,140,Rice & Noodles,1,0
+20,Schezwan Fried Rice Combo,Rice + gravy + starter combo,245,Combos,0,0
+20,Chilli Chicken,Spicy boneless chicken,200,Starters,0,1
+20,Soft Drink (300 ml),Cola / lemon / orange,40,Beverages,1,0
+20,Vanilla Ice Cream (2 scoops),Classic vanilla,85,Desserts,1,0
+20,Fresh Lime Soda,Sweet / salt / mixed,55,Beverages,1,0
+20,Cold Coffee,Chilled creamy coffee,105,Beverages,1,0
+21,Schezwan Fried Rice Combo,Rice + gravy + starter combo,275,Combos,0,0
+21,Schezwan Noodles,Spicy schezwan veg noodles,170,Rice & Noodles,1,0
+21,Veg Manchow Soup,Spicy soup with crispy noodles,105,Soups,1,0
+21,Chicken Hakka Noodles,Stir fried noodles with chicken,200,Rice & Noodles,0,1
+21,Chicken Sweet Corn Soup,Classic chicken sweet corn soup,120,Soups,0,0
+21,Chicken Manchurian,Chicken balls in manchurian gravy,215,Starters,0,0
+21,Chicken Fried Rice,Fried rice with chicken shreds,195,Rice & Noodles,0,1
+21,Veg Fried Rice,Wok-tossed rice with vegetables,160,Rice & Noodles,1,0
+21,Gobi Manchurian,Crispy cauliflower in manchurian sauce,160,Starters,1,1
+21,Paneer Chilli,Paneer tossed in chilli garlic sauce,210,Starters,1,0
+21,Chilli Chicken,Spicy boneless chicken,220,Starters,0,1
+21,Dragon Chicken,Crispy chicken in sweet-spicy glaze,235,Starters,0,0
+21,Egg Fried Rice,Fried rice with scrambled egg,175,Rice & Noodles,0,0
+21,Rose Milk,Chilled rose milk,60,Beverages,1,0
+21,Buttermilk,Spiced chaas,35,Beverages,1,0
+22,Chicken Sweet Corn Soup,Classic chicken sweet corn soup,125,Soups,0,0
+22,Chicken Manchurian,Chicken balls in manchurian gravy,225,Starters,0,0
+22,Chilli Chicken,Spicy boneless chicken,230,Starters,0,1
+22,Veg Fried Rice,Wok-tossed rice with vegetables,165,Rice & Noodles,1,0
+22,Schezwan Fried Rice Combo,Rice + gravy + starter combo,285,Combos,0,0
+22,Schezwan Noodles,Spicy schezwan veg noodles,175,Rice & Noodles,1,0
+22,Paneer Chilli,Paneer tossed in chilli garlic sauce,220,Starters,1,0
+22,Dragon Chicken,Crispy chicken in sweet-spicy glaze,250,Starters,0,0
+22,Veg Manchow Soup,Spicy soup with crispy noodles,110,Soups,1,0
+22,Chicken Fried Rice,Fried rice with chicken shreds,205,Rice & Noodles,0,1
+22,Chicken Hakka Noodles,Stir fried noodles with chicken,210,Rice & Noodles,0,1
+22,Egg Fried Rice,Fried rice with scrambled egg,180,Rice & Noodles,0,0
+22,Gobi Manchurian,Crispy cauliflower in manchurian sauce,165,Starters,1,1
+22,Buttermilk,Spiced chaas,40,Beverages,1,0
+22,Rose Milk,Chilled rose milk,60,Beverages,1,0
+23,Veg Manchow Soup,Spicy soup with crispy noodles,105,Soups,1,0
+23,Paneer Chilli,Paneer tossed in chilli garlic sauce,210,Starters,1,0
+23,Gobi Manchurian,Crispy cauliflower in manchurian sauce,160,Starters,1,1
+23,Veg Fried Rice,Wok-tossed rice with vegetables,160,Rice & Noodles,1,0
+23,Schezwan Noodles,Spicy schezwan veg noodles,170,Rice & Noodles,1,0
+23,Buttermilk,Spiced chaas,35,Beverages,1,0
+23,Fresh Lime Soda,Sweet / salt / mixed,65,Beverages,1,0
+23,Gulab Jamun (2 pcs),Warm syrupy jamun,75,Desserts,1,0
+23,Soft Drink (300 ml),Cola / lemon / orange,40,Beverages,1,0
+24,Farmhouse Pizza,"Capsicum, onion, mushroom, corn",315,Pizza,1,0
+24,Red Sauce Pasta,Penne in tangy arrabbiata,200,Pasta,1,0
+24,Cheesy Fries,Fries loaded with cheese sauce,145,Sides,1,0
+24,White Sauce Pasta,Creamy penne in white sauce,210,Pasta,1,1
+24,Chicken Alfredo Pasta,Creamy alfredo with grilled chicken,275,Pasta,0,0
+24,Chicken Tikka Pizza,Tandoori chicken with onions,355,Pizza,0,1
+24,Margherita Pizza,Classic cheese and tomato,220,Pizza,1,1
+24,Choco Lava Cake,Warm cake with molten chocolate,115,Desserts,1,1
+24,Soft Drink (300 ml),Cola / lemon / orange,40,Beverages,1,0
+24,Fresh Lime Soda,Sweet / salt / mixed,65,Beverages,1,0
+24,Buttermilk,Spiced chaas,35,Beverages,1,0
+24,Rose Milk,Chilled rose milk,60,Beverages,1,0
+25,Pepperoni Pizza,Chicken pepperoni and mozzarella,430,Pizza,0,0
+25,Red Sauce Pasta,Penne in tangy arrabbiata,230,Pasta,1,0
+25,Chicken Alfredo Pasta,Creamy alfredo with grilled chicken,310,Pasta,0,0
+25,Margherita Pizza,Classic cheese and tomato,250,Pizza,1,1
+25,Cheesy Fries,Fries loaded with cheese sauce,170,Sides,1,0
+25,Paneer Tikka Pizza,Paneer tikka with onions and capsicum,385,Pizza,1,0
+25,White Sauce Pasta,Creamy penne in white sauce,240,Pasta,1,1
+25,Chicken Tikka Pizza,Tandoori chicken with onions,410,Pizza,0,1
+25,Soft Drink (300 ml),Cola / lemon / orange,50,Beverages,1,0
+25,Gulab Jamun (2 pcs),Warm syrupy jamun,85,Desserts,1,0
+25,Cold Coffee,Chilled creamy coffee,130,Beverages,1,0
+26,Paneer Tikka Pizza,Paneer tikka with onions and capsicum,320,Pizza,1,0
+26,Margherita Pizza,Classic cheese and tomato,210,Pizza,1,1
+26,Pepperoni Pizza,Chicken pepperoni and mozzarella,360,Pizza,0,0
+26,Red Sauce Pasta,Penne in tangy arrabbiata,190,Pasta,1,0
+26,White Sauce Pasta,Creamy penne in white sauce,200,Pasta,1,1
+26,Farmhouse Pizza,"Capsicum, onion, mushroom, corn",300,Pizza,1,0
+26,Chicken Tikka Pizza,Tandoori chicken with onions,340,Pizza,0,1
+26,Choco Lava Cake,Warm cake with molten chocolate,110,Desserts,1,1
+26,Veg Lasagna,Baked layered lasagna,280,Pasta,1,0
+26,Garlic Bread with Cheese,Toasted garlic bread with mozzarella,130,Sides,1,0
+26,Rose Milk,Chilled rose milk,55,Beverages,1,0
+26,Cold Coffee,Chilled creamy coffee,110,Beverages,1,0
+27,Margherita Pizza,Classic cheese and tomato,200,Pizza,1,1
+27,White Sauce Pasta,Creamy penne in white sauce,190,Pasta,1,1
+27,Farmhouse Pizza,"Capsicum, onion, mushroom, corn",285,Pizza,1,0
+27,Choco Lava Cake,Warm cake with molten chocolate,105,Desserts,1,1
+27,Red Sauce Pasta,Penne in tangy arrabbiata,180,Pasta,1,0
+27,Veg Lasagna,Baked layered lasagna,265,Pasta,1,0
+27,Garlic Bread with Cheese,Toasted garlic bread with mozzarella,125,Sides,1,0
+27,Cold Coffee,Chilled creamy coffee,105,Beverages,1,0
+27,Rose Milk,Chilled rose milk,50,Beverages,1,0
+27,Gulab Jamun (2 pcs),Warm syrupy jamun,65,Desserts,1,0
+27,Buttermilk,Spiced chaas,35,Beverages,1,0
+28,Classic Veg Burger,"Crispy veg patty, lettuce, mayo",120,Burgers,1,0
+28,Peri Peri Fries,Fries tossed in peri peri masala,120,Sides,1,1
+28,Chicken Wrap,Grilled chicken in tortilla wrap,185,Wraps,0,0
+28,Fried Chicken (2 pcs),Southern fried chicken,210,Chicken,0,0
+28,Chicken Nuggets (6 pcs),Crispy chicken nuggets with dip,165,Sides,0,0
+28,Cheese Burger,Cheese-loaded veg burger,155,Burgers,1,0
+28,Burger Combo,Burger + fries + cold drink,285,Combos,0,1
+28,Paneer Wrap,Spiced paneer in wrap,175,Wraps,1,0
+28,Hot Wings (6 pcs),Spicy chicken wings,230,Chicken,0,0
+28,Double Patty Chicken Burger,Two juicy chicken patties,255,Burgers,0,1
+28,Crispy Chicken Burger,Fried chicken fillet with mayo,175,Burgers,0,1
+28,Buttermilk,Spiced chaas,40,Beverages,1,0
+28,Gulab Jamun (2 pcs),Warm syrupy jamun,75,Desserts,1,0
+29,Chicken Nuggets (6 pcs),Crispy chicken nuggets with dip,160,Sides,0,0
+29,Paneer Wrap,Spiced paneer in wrap,170,Wraps,1,0
+29,Crispy Chicken Burger,Fried chicken fillet with mayo,170,Burgers,0,1
+29,Chicken Wrap,Grilled chicken in tortilla wrap,180,Wraps,0,0
+29,Cheese Burger,Cheese-loaded veg burger,145,Burgers,1,0
+29,Burger Combo,Burger + fries + cold drink,275,Combos,0,1
+29,Peri Peri Fries,Fries tossed in peri peri masala,115,Sides,1,1
+29,Fried Chicken (2 pcs),Southern fried chicken,200,Chicken,0,0
+29,Double Patty Chicken Burger,Two juicy chicken patties,240,Burgers,0,1
+29,Hot Wings (6 pcs),Spicy chicken wings,220,Chicken,0,0
+29,Rose Milk,Chilled rose milk,60,Beverages,1,0
+29,Gulab Jamun (2 pcs),Warm syrupy jamun,75,Desserts,1,0
+30,Crispy Chicken Burger,Fried chicken fillet with mayo,190,Burgers,0,1
+30,Paneer Wrap,Spiced paneer in wrap,190,Wraps,1,0
+30,Double Patty Chicken Burger,Two juicy chicken patties,275,Burgers,0,1
+30,Chicken Nuggets (6 pcs),Crispy chicken nuggets with dip,180,Sides,0,0
+30,Chicken Wrap,Grilled chicken in tortilla wrap,205,Wraps,0,0
+30,Burger Combo,Burger + fries + cold drink,310,Combos,0,1
+30,Hot Wings (6 pcs),Spicy chicken wings,250,Chicken,0,0
+30,Peri Peri Fries,Fries tossed in peri peri masala,130,Sides,1,1
+30,Fried Chicken (2 pcs),Southern fried chicken,230,Chicken,0,0
+30,Buttermilk,Spiced chaas,40,Beverages,1,0
+30,Fresh Lime Soda,Sweet / salt / mixed,70,Beverages,1,0
+30,Vanilla Ice Cream (2 scoops),Classic vanilla,110,Desserts,1,0
+31,Grill Chicken Tikka,Smoky tikka skewers,275,Grills,0,0
+31,Chicken Shawarma,Classic chicken shawarma roll,115,Shawarma,0,1
+31,Chicken Shawarma Plate,"Shawarma with fries, hummus and salad",220,Shawarma,0,0
+31,Chicken Mandi (Half),Smoked rice with tender chicken,440,Mandi,0,1
+31,Hummus with Pita,Creamy chickpea dip with pita,135,Starters,1,0
+31,Falafel Wrap,Falafel with tahini in pita,125,Shawarma,1,0
+31,Alfaham Chicken (Half),Charcoal grilled chicken,295,Grills,0,1
+31,Mutton Shawarma,Slow roasted mutton shawarma,180,Shawarma,0,0
+31,Mutton Mandi,Smoked rice with slow cooked mutton,545,Mandi,0,0
+31,Garlic Mayo Dip,Creamy garlic dip,25,Sides,1,0
+31,Fresh Lime Soda,Sweet / salt / mixed,65,Beverages,1,0
+31,Soft Drink (300 ml),Cola / lemon / orange,40,Beverages,1,0
+31,Buttermilk,Spiced chaas,35,Beverages,1,0
+31,Cold Coffee,Chilled creamy coffee,115,Beverages,1,0
+32,Mutton Mandi,Smoked rice with slow cooked mutton,625,Mandi,0,0
+32,Chicken Shawarma Plate,"Shawarma with fries, hummus and salad",250,Shawarma,0,0
+32,Hummus with Pita,Creamy chickpea dip with pita,155,Starters,1,0
+32,Mutton Shawarma,Slow roasted mutton shawarma,205,Shawarma,0,0
+32,Khubz (2 pcs),Arabian bread,35,Sides,1,0
+32,Alfaham Chicken (Half),Charcoal grilled chicken,335,Grills,0,1
+32,Falafel Wrap,Falafel with tahini in pita,145,Shawarma,1,0
+32,Grill Chicken Tikka,Smoky tikka skewers,310,Grills,0,0
+32,Gulab Jamun (2 pcs),Warm syrupy jamun,85,Desserts,1,0
+32,Fresh Lime Soda,Sweet / salt / mixed,70,Beverages,1,0
+33,Chicken Shawarma,Classic chicken shawarma roll,100,Shawarma,0,1
+33,Hummus with Pita,Creamy chickpea dip with pita,115,Starters,1,0
+33,Chicken Mandi (Half),Smoked rice with tender chicken,380,Mandi,0,1
+33,Mutton Shawarma,Slow roasted mutton shawarma,155,Shawarma,0,0
+33,Mutton Mandi,Smoked rice with slow cooked mutton,470,Mandi,0,0
+33,Falafel Wrap,Falafel with tahini in pita,110,Shawarma,1,0
+33,Garlic Mayo Dip,Creamy garlic dip,20,Sides,1,0
+33,Choco Lava Cake,Molten chocolate center,100,Desserts,1,0
+33,Rose Milk,Chilled rose milk,50,Beverages,1,0
+33,Fresh Lime Soda,Sweet / salt / mixed,55,Beverages,1,0
+34,Sulaimani Tea,Spiced black tea with lemon,35,Beverages,1,0
+34,Appam with Veg Stew,Lacy appam with coconut milk stew,165,Breakfast,1,1
+34,Kerala Parotta (2 pcs),Soft layered parotta,70,Breads,1,0
+34,Egg Roast,Egg roast with onion masala,155,Main Course,0,0
+34,Fish Curry Meals,Rice with fish curry and thoran,255,Meals,0,0
+34,Chicken Roast,Kerala chicken roast,275,Main Course,0,0
+34,Kerala Veg Meals,Sadya style meals,210,Meals,1,0
+34,Banana Fry (Pazham Pori),Sweet banana fritters,65,Snacks,1,0
+34,Beef Fry,Kerala style roasted beef,285,Main Course,0,1
+34,Karimeen Pollichathu,Pearl spot fish baked in banana leaf,460,Seafood,0,0
+34,Puttu with Kadala Curry,Steamed rice cake with black chana curry,130,Breakfast,1,1
+34,Vanilla Ice Cream (2 scoops),Classic vanilla,100,Desserts,1,0
+34,Gulab Jamun (2 pcs),Warm syrupy jamun,75,Desserts,1,0
+35,Beef Fry,Kerala style roasted beef,285,Main Course,0,1
+35,Sulaimani Tea,Spiced black tea with lemon,35,Beverages,1,0
+35,Chicken Roast,Kerala chicken roast,275,Main Course,0,0
+35,Puttu with Kadala Curry,Steamed rice cake with black chana curry,130,Breakfast,1,1
+35,Kerala Veg Meals,Sadya style meals,210,Meals,1,0
+35,Fish Curry Meals,Rice with fish curry and thoran,255,Meals,0,0
+35,Karimeen Pollichathu,Pearl spot fish baked in banana leaf,460,Seafood,0,0
+35,Cold Coffee,Chilled creamy coffee,120,Beverages,1,0
+35,Fresh Lime Soda,Sweet / salt / mixed,65,Beverages,1,0
+35,Vanilla Ice Cream (2 scoops),Classic vanilla,100,Desserts,1,0
+35,Gulab Jamun (2 pcs),Warm syrupy jamun,75,Desserts,1,0
+36,Samosa Chaat,Crushed samosa with chole and curd,80,Chaat,1,0
+36,Dahi Puri,Puri with curd and sweet chutney,75,Chaat,1,0
+36,Vada Pav (2 pcs),Mumbai style vada pav,55,Snacks,1,0
+36,Pani Puri (6 pcs),Crispy puris with tangy water,55,Chaat,1,1
+36,Masala Chai,Hot spiced tea,30,Beverages,1,0
+36,Sev Puri,Puri topped with chutneys and sev,65,Chaat,1,0
+36,Pav Bhaji,Spicy mashed veg curry with buttered pav,125,Mains,1,1
+36,Corn Chaat,Sweet corn with masala and lemon,65,Chaat,1,0
+36,Gulab Jamun (2 pcs),Warm syrupy jamun,65,Desserts,1,0
+36,Vanilla Ice Cream (2 scoops),Classic vanilla,85,Desserts,1,0
+37,Masala Chai,Hot spiced tea,25,Beverages,1,0
+37,Pani Puri (6 pcs),Crispy puris with tangy water,55,Chaat,1,1
+37,Vada Pav (2 pcs),Mumbai style vada pav,55,Snacks,1,0
+37,Pav Bhaji,Spicy mashed veg curry with buttered pav,115,Mains,1,1
+37,Bhel Puri,Puffed rice chaat,60,Chaat,1,0
+37,Samosa Chaat,Crushed samosa with chole and curd,75,Chaat,1,0
+37,Aloo Tikki,Crispy potato tikki with chutneys,70,Snacks,1,0
+37,Gulab Jamun (2 pcs),Warm syrupy jamun,65,Desserts,1,0
+37,Soft Drink (300 ml),Cola / lemon / orange,35,Beverages,1,0
+37,Cold Coffee,Chilled creamy coffee,100,Beverages,1,0
+38,Mango Milkshake,Fresh mango and milk,115,Beverages,1,0
+38,Falooda,Rose falooda with ice cream,135,Desserts,1,0
+38,Red Velvet Cake (Slice),Cream cheese frosted red velvet,140,Cakes,1,0
+38,Veg Puff,Flaky puff with veg masala,30,Bakery,1,0
+38,Black Forest Cake (Slice),Classic black forest,115,Cakes,1,0
+38,Brownie with Ice Cream,Hot brownie with vanilla scoop,150,Desserts,1,1
+38,Jigarthanda,Madurai special cold dessert drink,115,Desserts,1,1
+38,Gulab Jamun (2 pcs),Warm syrupy jamun,65,Desserts,1,0
+38,Rasmalai (2 pcs),Soft paneer discs in saffron milk,105,Desserts,1,0
+38,Chocolate Truffle Cake (Slice),Rich chocolate truffle,125,Cakes,1,1
+38,Buttermilk,Spiced chaas,35,Beverages,1,0
+38,Choco Lava Cake,Molten chocolate center,105,Desserts,1,0
+38,Vanilla Ice Cream (2 scoops),Classic vanilla,85,Desserts,1,0
+38,Soft Drink (300 ml),Cola / lemon / orange,40,Beverages,1,0
+39,Chocolate Truffle Cake (Slice),Rich chocolate truffle,155,Cakes,1,1
+39,Egg Puff,Flaky puff with egg masala,40,Bakery,0,0
+39,Choco Chip Cookies (4 pcs),Freshly baked cookies,120,Bakery,1,0
+39,Falooda,Rose falooda with ice cream,170,Desserts,1,0
+39,Jigarthanda,Madurai special cold dessert drink,145,Desserts,1,1
+39,Mango Milkshake,Fresh mango and milk,145,Beverages,1,0
+39,Red Velvet Cake (Slice),Cream cheese frosted red velvet,180,Cakes,1,0
+39,Gulab Jamun (2 pcs),Warm syrupy jamun,85,Desserts,1,0
+39,Black Forest Cake (Slice),Classic black forest,145,Cakes,1,0
+39,Brownie with Ice Cream,Hot brownie with vanilla scoop,190,Desserts,1,1
+39,Rasmalai (2 pcs),Soft paneer discs in saffron milk,130,Desserts,1,0
+39,Vanilla Ice Cream (2 scoops),Classic vanilla,110,Desserts,1,0
+39,Cold Coffee,Chilled creamy coffee,130,Beverages,1,0
+40,Gulab Jamun (2 pcs),Warm syrupy jamun,65,Desserts,1,0
+40,Choco Chip Cookies (4 pcs),Freshly baked cookies,90,Bakery,1,0
+40,Chocolate Truffle Cake (Slice),Rich chocolate truffle,115,Cakes,1,1
+40,Jigarthanda,Madurai special cold dessert drink,110,Desserts,1,1
+40,Veg Puff,Flaky puff with veg masala,25,Bakery,1,0
+40,Red Velvet Cake (Slice),Cream cheese frosted red velvet,135,Cakes,1,0
+40,Falooda,Rose falooda with ice cream,125,Desserts,1,0
+40,Brownie with Ice Cream,Hot brownie with vanilla scoop,145,Desserts,1,1
+40,Cold Coffee,Chilled creamy coffee,100,Beverages,1,0
+40,Buttermilk,Spiced chaas,30,Beverages,1,0
+40,Choco Lava Cake,Molten chocolate center,100,Desserts,1,0
+40,Fresh Lime Soda,Sweet / salt / mixed,55,Beverages,1,0
+41,Veg Puff,Flaky puff with veg masala,25,Bakery,1,0
+41,Choco Chip Cookies (4 pcs),Freshly baked cookies,90,Bakery,1,0
+41,Black Forest Cake (Slice),Classic black forest,110,Cakes,1,0
+41,Red Velvet Cake (Slice),Cream cheese frosted red velvet,135,Cakes,1,0
+41,Mango Milkshake,Fresh mango and milk,110,Beverages,1,0
+41,Brownie with Ice Cream,Hot brownie with vanilla scoop,145,Desserts,1,1
+41,Jigarthanda,Madurai special cold dessert drink,110,Desserts,1,1
+41,Gulab Jamun (2 pcs),Warm syrupy jamun,65,Desserts,1,0
+41,Buttermilk,Spiced chaas,30,Beverages,1,0
+41,Fresh Lime Soda,Sweet / salt / mixed,55,Beverages,1,0
+41,Choco Lava Cake,Molten chocolate center,100,Desserts,1,0
+42,Millet Pongal Bowl,Foxtail millet pongal bowl,190,Bowls,1,0
+42,Cold Pressed Green Juice,"Spinach, cucumber, apple",180,Beverages,1,0
+42,Oats Smoothie Bowl,"Oats, banana, berries",215,Breakfast,1,0
+42,Grilled Chicken Salad,Greens with grilled chicken breast,290,Salads,0,1
+42,Watermelon Juice,Fresh pressed watermelon,110,Beverages,1,0
+42,Greek Salad,"Cucumber, olives, feta, tomatoes",230,Salads,1,0
+42,Quinoa Bowl,Quinoa with roasted veggies and hummus,300,Bowls,1,1
+42,Egg White Omelette,Four egg whites with veggies,155,Breakfast,0,0
+42,Fresh Orange Juice,No sugar added,130,Beverages,1,0
+42,Fresh Lime Soda,Sweet / salt / mixed,70,Beverages,1,0
+42,Vanilla Ice Cream (2 scoops),Classic vanilla,110,Desserts,1,0
+42,Cold Coffee,Chilled creamy coffee,130,Beverages,1,0
+43,Greek Salad,"Cucumber, olives, feta, tomatoes",210,Salads,1,0
+43,Quinoa Bowl,Quinoa with roasted veggies and hummus,275,Bowls,1,1
+43,Oats Smoothie Bowl,"Oats, banana, berries",200,Breakfast,1,0
+43,Fresh Orange Juice,No sugar added,120,Beverages,1,0
+43,Egg White Omelette,Four egg whites with veggies,145,Breakfast,0,0
+43,Grilled Chicken Salad,Greens with grilled chicken breast,265,Salads,0,1
+43,Cold Pressed Green Juice,"Spinach, cucumber, apple",165,Beverages,1,0
+43,Paneer Tikka Bowl,Grilled paneer with brown rice,295,Bowls,1,0
+43,Watermelon Juice,Fresh pressed watermelon,100,Beverages,1,0
+43,Millet Pongal Bowl,Foxtail millet pongal bowl,175,Bowls,1,0
+43,Rose Milk,Chilled rose milk,60,Beverages,1,0
+43,Vanilla Ice Cream (2 scoops),Classic vanilla,100,Desserts,1,0
+44,Paneer Tikka Bowl,Grilled paneer with brown rice,255,Bowls,1,0
+44,Fresh Orange Juice,No sugar added,105,Beverages,1,0
+44,Greek Salad,"Cucumber, olives, feta, tomatoes",180,Salads,1,0
+44,Cold Pressed Green Juice,"Spinach, cucumber, apple",140,Beverages,1,0
+44,Watermelon Juice,Fresh pressed watermelon,85,Beverages,1,0
+44,Millet Pongal Bowl,Foxtail millet pongal bowl,150,Bowls,1,0
+44,Oats Smoothie Bowl,"Oats, banana, berries",170,Breakfast,1,0
+44,Quinoa Bowl,Quinoa with roasted veggies and hummus,240,Bowls,1,1
+44,Cold Coffee,Chilled creamy coffee,105,Beverages,1,0
+44,Soft Drink (300 ml),Cola / lemon / orange,40,Beverages,1,0
+45,Prawn Masala,Prawns in spicy onion tomato masala,375,Main Course,0,0
+45,Lemon Rice,Tangy lemon rice,90,Sides,1,0
+45,Fish Fry (Seer),Masala marinated seer fry,375,Starters,0,1
+45,Fish Curry Rice,Rice with fish kuzhambu,255,Meals,0,1
+45,Squid Fry,Crispy fried calamari with spices,320,Starters,0,0
+45,Crab Masala,Crab in thick spicy gravy,420,Main Course,0,0
+45,Meen Kuzhambu,Tamarind-based fish gravy,275,Main Course,0,0
+45,Fish Finger (6 pcs),Crumb fried fish fingers,265,Starters,0,0
+45,Prawn Fried Rice,Rice wok-tossed with prawns,285,Rice,0,0
+45,Vanilla Ice Cream (2 scoops),Classic vanilla,100,Desserts,1,0
+45,Choco Lava Cake,Molten chocolate center,120,Desserts,1,0
+45,Fresh Lime Soda,Sweet / salt / mixed,65,Beverages,1,0
+45,Cold Coffee,Chilled creamy coffee,120,Beverages,1,0
+46,Squid Fry,Crispy fried calamari with spices,260,Starters,0,0
+46,Prawn Fried Rice,Rice wok-tossed with prawns,235,Rice,0,0
+46,Fish Finger (6 pcs),Crumb fried fish fingers,215,Starters,0,0
+46,Prawn Masala,Prawns in spicy onion tomato masala,305,Main Course,0,0
+46,Crab Masala,Crab in thick spicy gravy,340,Main Course,0,0
+46,Meen Kuzhambu,Tamarind-based fish gravy,225,Main Course,0,0
+46,Fish Curry Rice,Rice with fish kuzhambu,205,Meals,0,1
+46,Fish Fry (Seer),Masala marinated seer fry,305,Starters,0,1
+46,Lemon Rice,Tangy lemon rice,70,Sides,1,0
+46,Soft Drink (300 ml),Cola / lemon / orange,35,Beverages,1,0
+46,Vanilla Ice Cream (2 scoops),Classic vanilla,80,Desserts,1,0
+46,Choco Lava Cake,Molten chocolate center,100,Desserts,1,0
+47,Meen Kuzhambu,Tamarind-based fish gravy,300,Main Course,0,0
+47,Squid Fry,Crispy fried calamari with spices,350,Starters,0,0
+47,Prawn Fried Rice,Rice wok-tossed with prawns,310,Rice,0,0
+47,Fish Fry (Seer),Masala marinated seer fry,410,Starters,0,1
+47,Lemon Rice,Tangy lemon rice,95,Sides,1,0
+47,Prawn Masala,Prawns in spicy onion tomato masala,410,Main Course,0,0
+47,Fish Curry Rice,Rice with fish kuzhambu,275,Meals,0,1
+47,Crab Masala,Crab in thick spicy gravy,455,Main Course,0,0
+47,Fish Finger (6 pcs),Crumb fried fish fingers,290,Starters,0,0
+47,Cold Coffee,Chilled creamy coffee,130,Beverages,1,0
+47,Soft Drink (300 ml),Cola / lemon / orange,50,Beverages,1,0
+47,Choco Lava Cake,Molten chocolate center,130,Desserts,1,0
+47,Buttermilk,Spiced chaas,40,Beverages,1,0
